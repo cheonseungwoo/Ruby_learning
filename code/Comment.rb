@@ -14,4 +14,4 @@ puts "Built-in documentation"
 
 puts "test" #test
 
-puts 18/2
+puts 18/2 # 나누기
