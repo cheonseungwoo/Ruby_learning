@@ -14,3 +14,4 @@ puts "Built-in documentation"
 
 puts "test" #test
 
+puts 18/2
