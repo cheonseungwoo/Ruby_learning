@@ -5,3 +5,11 @@
 #NilClass : 비어있음 (값이 없음)
 #Array : 배열
 #Hash : 해시(키(Key)와 값(Value)의 쌍으로 이루어진 사전입니다.)
+
+num = [ 1, 2, 3]
+puts num.sort     
+puts num.reverse
+
+user = { name: "seungwoo", age: 22 }
+puts user[:age]
+puts user[:name]
