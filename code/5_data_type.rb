@@ -5,11 +5,20 @@
 #NilClass : 비어있음 (값이 없음)
 #Array : 배열
 #Hash : 해시(키(Key)와 값(Value)의 쌍으로 이루어진 사전입니다.)
+a = 17 #Numeric
+b = 2.17 #Numeric
+puts a,b
 
-num = [ 1, 2, 3]
+aa = "test" #String
+puts aa
+
+my_symbol = :seungwoo #Symbol
+p my_symbol
+
+num = [ 1, 2, 3] #Array
 puts num.sort     
 puts num.reverse
 
-user = { name: "seungwoo", age: 22 }
+user = { name: "seungwoo", age: 22 } #Hash
 puts user[:age]
 puts user[:name]
